@@ -4,8 +4,6 @@
   <b>Code Helper</b> is an advanced interactive educational tool designed to break down and visualize complex coding problems and data structures autonomously using Generative AI (Google Gemini 2.5 Flash).
 </p>
 
-## 📸 Screenshots
-
 ### 1. 🤖 AI Problem Analysis & Progressive Hints
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a01199f2-f467-42d3-b3df-00b9f8b77008" />
