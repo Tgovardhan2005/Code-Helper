@@ -1,28 +1,26 @@
 <h1 align="center">✨ Code Helper ✨<br><sub>AI-Powered DSA Logic Visualizer</sub></h1>
 
 <p align="center">
-  <img alt="Code Helper Demo Logo" src="https://via.placeholder.com/1000x500/0f172a/38bdf8?text=%E2%9C%A8+Code+Helper:+Interactive+Execution+Engine+%E2%9C%A8" width="100%">
-</p>
-
-<p align="center">
   <b>Code Helper</b> is an advanced interactive educational tool designed to break down and visualize complex coding problems and data structures autonomously using Generative AI (Google Gemini 2.5 Flash).
 </p>
-
-<hr>
 
 ## 📸 Screenshots
 
 ### 1. 🤖 AI Problem Analysis & Progressive Hints
-*(Place screenshot of the main query input and Phase 1 Contextual Hints here)*
-<img src="https://via.placeholder.com/800x400/1e293b/94a3b8?text=Screenshot:+Main+Input+and+Hints" width="800">
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a01199f2-f467-42d3-b3df-00b9f8b77008" />
+
 
 ### 2. 🧩 Multi-Language Code Implementations
-*(Place screenshot of Step 3 Code Viewer with C++, Java, JS, Python tabs here)*
-<img src="https://via.placeholder.com/800x400/1e293b/94a3b8?text=Screenshot:+Multi-Language+Code+Selector" width="800">
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d528c2f0-1eac-4b26-adcb-93259394b2d7" />
+
 
 ### 3. 🎥 Interactive Execution Trace & 2D Animations
-*(Place screenshot of Step 4 Interactive Web Visualizer with arrays/matrices floating here)*
-<img src="https://via.placeholder.com/800x400/1e293b/94a3b8?text=Screenshot:+Tree/Matrix/Array+Animations" width="800">
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4937592f-2cb7-40ef-904e-53fa3442fc29" />
+
+
 
 ---
 
