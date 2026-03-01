@@ -202,9 +202,13 @@ function App() {
       }
     } catch (err) {
       console.error(err);
-      setError("Failed to generate response. Check your API Key or backend connection. Here is sample data instead.");
-      // Fallback for demonstration
-      setData(FALLBACK_DATA);
+      if (err.response && err.response.data && err.response.data.error) {
+        // Grab backend-provided error message natively (like Rate Limit warnings)
+        setError(err.response.data.error);
+      } else {
+        setError("Failed to generate response. The AI servers might be down or your connection was interrupted. Please try again soon.");
+      }
+      setData(null);
     } finally {
       setLoading(false);
       setVisibleTier(1); // Auto-show first tier

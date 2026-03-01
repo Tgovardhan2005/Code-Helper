@@ -173,7 +173,10 @@ export const solveDoubt = async (req, res) => {
     return res.json({ data: parsedResponse });
 
   } catch (error) {
-    console.error('Gemini API Error:', error);
-    res.status(500).json({ error: 'Failed to generate solution' });
+    console.error('Gemini API Error:', error.message || error);
+    if (error.status === 429) {
+      return res.status(429).json({ error: 'Google Gemini API Rate Limit Exceeded: You have run out of free quota. Please wait a few moments before trying again, or upgrade your API key.' });
+    }
+    res.status(500).json({ error: 'Failed to generate solution from AI. Please try again later.' });
   }
 };
