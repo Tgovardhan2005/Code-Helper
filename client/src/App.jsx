@@ -238,9 +238,9 @@ function App() {
         )}
 
         {loading && (
-          <div className="loader">
-            <div className="spinner"></div>
-            <span style={{ marginLeft: '1rem', color: 'var(--primary)', fontWeight: 600 }} className="animate-pulse-glow">
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', margin: '4rem 0', gap: '2rem' }}>
+            <div className="loader"></div>
+            <span style={{ color: 'var(--primary)', fontWeight: 600, fontSize: '1.1rem', letterSpacing: '0.05em' }} className="animate-pulse-glow">
               Analyzing problem with AI...
             </span>
           </div>
