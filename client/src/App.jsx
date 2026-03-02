@@ -194,7 +194,7 @@ function App() {
     setVisibleTier(0);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/solve', { question });
+      const response = await axios.post('https://code-helper-backend.onrender.com/api/solve', { question });
       if (response.data && response.data.data) {
         setData(response.data.data);
       } else {
